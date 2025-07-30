@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	
+		<title>Rui Ferreira Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Rui Ferreira Portfolio<br />
+						</h1>
+						<p>Projects below</a> 
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Data</a></li>			
+						</ul>
+						<ul class="icons">						
+							
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									
+									<h2><a href="#">DATA EXPLORATION<br />
+									</a></h2>
+									<p>Exploring Sales Data from a Coffee business and creating Visualizations using tableau</p>
+									<details style="text-align: left;">
+										<summary>Summary</summary>
+										<p>
+											Explored sales data from a coffee vending machine to gain insights into product performance, revenue trends, pricing strategies, and customer payment behaviors. The data set includes individual coffee sales with timestamps, prices, and payment methods.
+										</p>
+										
+										<h3>Key Insights:</h3>
+										<ul>
+											<li>Identified Top-selling beverages based on total units sold.</li>
+											<li>Revealed Highest revenue-generating beverages through total sales revenue.</li>
+											<li>Analyzed Monthly sales and revenue trends to understand seasonality.</li>
+											<li>Calculated Average price per beverage.</li>
+											<li>Identified Peak sales hours.</li>
+											<li>Sales breakdown by payment method (cash vs card) analyzed for customer preferences.</li>
+									
+										</ul>
+										</details>
+
+
+
+
+
+								</header>
+								<a  class="image main"><img src="images/coffee.png" alt="" /></a>
+							
+								<ul class="actions special">
+									<li style="list-style: none; display: flex; gap: 20px;">
+										<a href="https://www.kaggle.com/datasets/ihelon/coffee-sales" class="button large">Kaggle</a>
+										<a href="https://github.com/YeahSureMate/RuiFerreira.github.io/blob/main/SQL/Coffee_sales.sql" class="button large">SQL</a>
+										<a href="https://public.tableau.com/views/Coffee_sales_17538989707530/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" class="button large">TABLEAU</a>
+									</li>
+
+
+								</ul>
+							</article>
+
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										
+										<h2><a href="#">Data cleaning<br />
+										</a></h2>
+										<p>Cleaning data using SQL</p>
+										<details style="text-align: left;">
+										<summary>Summary</summary>
+										<p>This project involved cleaning and standardizing a raw dataset (<code>animal_data_dirty</code>) containing wildlife observations. The dataset included information such as animal type, weight, body length, location coordinates, observation date, and other metadata. Data quality issues included inconsistent naming, incorrect data types, unrealistic values, and missing entries.</p>
+
+											<h3>Key Steps and Fixes:</h3>
+											<ul>
+											<li><strong>Schema Fixes:</strong> Renamed columns to standardized snake_case for readability and consistency.</li>
+											<li><strong>Duplicate Removal:</strong> Identified and removed duplicates using <code>ROW_NUMBER()</code> partitioning.</li>
+											<li><strong>Standardizing Categorical Values:</strong> Corrected typos and normalized values in <code>animal_type</code> and <code>Country</code>.</li>
+											<li><strong>Handling Missing & Invalid Values:</strong> Converted blanks to NULLs, removed unusable rows, and cleaned coordinates.</li>
+											<li><strong>Data Type Conversions:</strong> Changed key columns from text to numeric/date types.</li>
+											<li><strong>Outlier Correction:</strong> Added nulls to unrealistic values (for instance, Lynx weighing 171 kg).</li>
+											<li><strong>Imputation:</strong> Inferred <code>animal_type</code> using known weight and length ranges.</li>
+											<li><strong>Dropped Columns:</strong> Removed empty columns like <code>animal_code</code>.</li>
+											<li><strong>Date Formatting:</strong> Standardized and converted <code>Observation date</code> into <code>DATE</code> type.</li>
+											</ul>
+
+								
+										</ul>
+										</details>
+									</header>
+									<a class="image fit"><img src="images/animals.jpg" alt="" /></a>
+									<p></p>
+									<ul class="actions special">
+										<a href="https://www.kaggle.com/datasets/joannanplkrk/dirty-data-to-clean-whats-wrong-with-this-dataset?select=animal_data_dirty1.csv" class="button">Kaggle</a>
+										<li><a href="https://github.com/YeahSureMate/RuiFerreira.github.io/blob/main/SQL/Cleaning.sql" class="button">SQL</a>											
+										</li>
+									</ul>
+								</article>
+								<article> 
+
+						<!-- Footer -->
+							<footer>
+								<div class="pagination">
+									<!--<a href="#" class="previous">Prev</a>-->
+									
+									
+									
+								</div>
+							</footer>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+						
+					</footer>
+
+			
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
